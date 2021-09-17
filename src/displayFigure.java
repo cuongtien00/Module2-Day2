@@ -23,7 +23,7 @@ public class displayFigure {
                 case 2:
                     for (int i = 1; i < 6; i++) {
                         for (int j = 0; j < i; j++) {
-                            System.out.printf("*");
+                            System.out.print("*");
                         }
                         System.out.println("");
                         }
@@ -31,11 +31,11 @@ public class displayFigure {
                 case 3:
                     for (int i = 0; i < 5; i++) {
                         for (int j = 5; j >i ; j--) {
-                            System.out.printf(" ");
+                            System.out.print(" ");
                         }
                         for (int j = 0 ; j <i ; j++) {
-                            System.out.printf("*");
-                            System.out.printf("*");
+                            System.out.print("*");
+                            System.out.print("*");
                         }
                         System.out.println("");
                         }
